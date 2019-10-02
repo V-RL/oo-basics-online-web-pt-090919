@@ -7,10 +7,7 @@ class Shoe
   end
   
   def cobble(fixed)
-    if Shoe.condition == old 
-      Shoe.condition = new
-    puts "#{fixed}"
-    
+   
   end
 end
 end
