@@ -7,9 +7,9 @@ class Shoe
   end
   
   def cobble
-   if Shoe.condition == "old"
-     Shoe.condition = "new"
+   
     puts "Your shoe is as good as new!"
-  end
+    self.condition = "new"
+  
   end
 end
