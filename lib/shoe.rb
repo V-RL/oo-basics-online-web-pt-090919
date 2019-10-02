@@ -11,5 +11,6 @@ class Shoe
     puts "Your shoe is as good as new!"
     if Shoe.condition == old 
       Shoe.condition << new 
+    end
   end
 end
