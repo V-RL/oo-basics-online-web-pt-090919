@@ -6,8 +6,8 @@ class Shoe
     @brand = brand
   end
   
-  def cobble(fixed)
+  def cobble
+    puts ""
    
-  end
-end
+  
 end
